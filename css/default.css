@@ -13,19 +13,21 @@ body{
 	text-align: center;
 }
 
+
+
 .imageBlock{
-	background-color: white;
-	width: 25%;
-	min-width: 250px;
-	max-width: 500px;
-	padding: 10px;
-	box-sizing: border-box;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
-	border-radius: 8px;
-	margin: 25px;
-	display: inline-block;
-	text-align: left;
+background-color: white;
+width: 400px;
+padding: 10px;
+box-sizing: border-box;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+border-radius: 8px;
+margin: 25px;
+display: inline-block;
+text-align: left;
 }
+
+
 
 a > img{
 	max-width: 100%;
