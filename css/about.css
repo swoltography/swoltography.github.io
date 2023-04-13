@@ -1,0 +1,22 @@
+#portraitContainer{
+	background-color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	max-width: 50%;
+	float: right;
+	margin: 0px 25px 25px 25px;
+	border-radius: 8px;
+}
+
+#portrait{
+	max-width: 100%;
+	margin-left: auto;
+	max-height: 60vh;
+	margin-right: auto;
+	display: block;
+	border-radius: 5px;
+}
+
+article{
+	overflow: hidden;
+}
