@@ -6,7 +6,7 @@
 	display: inline-block
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 600px){
 	#portraitContainer{
 		background-color: white;
 		padding: 10px;
