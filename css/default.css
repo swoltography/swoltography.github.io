@@ -44,68 +44,103 @@ a > img{
 	border-radius: 5px;
 }
 
+#logo{
+		max-width: 100%;
+		margin: auto;
+		border-radius: 0px 10px 10px 0px;
+		display: inline-block;
+}
+
 header{
 	background-Color: #363636;
-	display: grid;
-	grid-template-columns: 33% 67%;
-	min-height: 100px;
+
 }
 
-.headerItem{
-	max-width: 100%;
-	text-align: right;
-	display: inline-grid;
-	margin: 25px 0px;
-}
-
-.headerItem > *{
-	margin: auto 0px;
-	color: white;
-}
-
-footer{
-	color: white;
-	text-align: center;
-	padding: 20px 50px;
-	background-Color: #363636;
-	margin-top: 50px;
-}
-
-#logo{
-	max-width: 100%;
-	margin: auto;
-	border-radius: 0px 10px 10px 0px;
-	display: inline-block;
-}
-
-#titleContainer{
-	color: white;
-	text-align: justify;
-	font-size: 20px;
-	padding: 0px 10% 50px 10%;
-	margin: 50px;
-	border-bottom: 5px dashed white;
-}
-
-#title{
-	font-size: 40px;
-	font-weight: bold;
-	color: white;
-	text-decoration: underline;
+#nav{
 	text-align: center;
 }
 
 #nav > *{
 	display: inline-block;
-	margin: 5px;
 	background-Color: white;
-	padding: 0px 10px;
+	margin: 3vw;
+	padding: auto;
+	width: 90%;
 	border-radius: 5px;
 	color: #363636;
 	font-weight: bold;
 	text-decoration: none;
-
+	text-align: center;
 }
+
+	
+
+@media only screen and (min-width: 768px){
+	
+	header{
+		display: grid;
+		grid-template-columns: 33% 67%;
+		min-height: 100px;
+	}
+
+	.headerItem{
+		max-width: 100%;
+		text-align: right;
+		display: inline-grid;
+		margin: 25px 0px;
+	}
+
+	.headerItem > *{
+		margin: auto 0px;
+		color: white;
+	}
+	
+	#nav{
+	text-align: right;
+	}
+
+	
+	#nav > *{
+		display: inline-block;
+		margin: 5px;
+		background-Color: white;
+		padding: 0px auto;
+		width: 10vw;
+		border-radius: 5px;
+		color: #363636;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+
+	#titleContainer{
+		color: white;
+		text-align: justify;
+		font-size: 20px;
+		padding: 0px 10% 50px 10%;
+		margin: 50px;
+		border-bottom: 5px dashed white;
+	}
+
+	#title{
+		font-size: 40px;
+		font-weight: bold;
+		color: white;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+	
+}
+
+footer{
+		color: white;
+		text-align: center;
+		padding: 20px 50px;
+		background-Color: #363636;
+		margin-top: 50px;
+	}
+
 
 article{
 	margin: 50px;
