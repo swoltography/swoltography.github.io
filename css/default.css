@@ -79,7 +79,7 @@ header{
 	
 	header{
 		display: grid;
-		grid-template-columns: 33% 67%;
+		grid-template-columns: 33% auto;
 		min-height: 100px;
 	}
 
@@ -94,9 +94,11 @@ header{
 		margin: auto 0px;
 		color: white;
 	}
+
 	
 	#nav{
 	text-align: right;
+	margin: 0em 1em;
 	}
 
 	
@@ -105,7 +107,7 @@ header{
 		margin: 5px;
 		background-Color: white;
 		padding: 0px auto;
-		width: 10vw;
+		width: 5em;
 		border-radius: 5px;
 		color: #363636;
 		font-weight: bold;
