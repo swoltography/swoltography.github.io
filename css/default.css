@@ -112,10 +112,10 @@ header{
 		color: #363636;
 		font-weight: bold;
 		text-decoration: none;
-	}
+	}	
+}
 
-
-	#titleContainer{
+#titleContainer{
 		color: white;
 		text-align: justify;
 		font-size: 20px;
@@ -124,15 +124,12 @@ header{
 		border-bottom: 5px dashed white;
 	}
 
-	#title{
-		font-size: 40px;
-		font-weight: bold;
-		color: white;
-		text-decoration: underline;
-		text-align: center;
-	}
-
-	
+#title{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+	text-align: center;
 }
 
 footer{
