@@ -94,7 +94,11 @@ footer{
 
 article{
 	margin: 50px;
-	border-bottom: 3px dashed white;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+	padding: 25px;
+
 }
 
 article > h1{
