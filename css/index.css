@@ -37,9 +37,14 @@ article{
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
 	margin: 50px 3vw;
 	padding: 0px;
+	
 
 }
 
 article > *{
 	margin: 20px;
+}
+
+a{
+	text-decoration: none;
 }
