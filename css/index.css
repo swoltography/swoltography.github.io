@@ -12,14 +12,15 @@
 	.imageBlock{
 		padding: 10px;
 		margin: 0px;
-		max-width: 50%;
-		float: right;	
+		width: 50%;
+		float: right;
+		border-radius: 0px 8px 8px 0px;
 	}
 }
 
 
 img{
-	max-width: 100%;
+	width: 100%;
 	margin-left: auto;
 	max-height: 60vh;
 	margin-right: auto;
