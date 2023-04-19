@@ -1,0 +1,108 @@
+
+.imageBlock{
+	background-color: white;
+	max-width: 100%;
+	padding: 2vw;
+	margin: 0px;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px){
+	.imageBlock{
+		padding: 13px;
+		margin: 0px;
+		width: 50%;
+		float: right;
+		border-radius: 0px 8px 8px 0px;
+	}
+}
+
+
+img{
+	width: 100%;
+	margin-left: auto;
+	max-height: 60vh;
+	margin-right: auto;
+	display: block;
+	border-radius: 5px;
+}
+
+article{
+	overflow: hidden;
+	background-color: #4C4C4C;
+	border-radius: 8px;
+	color: white;
+	border: none;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+	margin: 50px 3vw;
+	padding: 0px;
+	text-align: left;
+
+}
+
+article > *{
+	margin: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+section{
+	text-align: center;
+}
+
+.tableContainer{
+	overflow: auto;
+	background-color: #4C4C4C;
+	border-radius: 8px;
+	color: white;
+	border: none;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+	margin: 50px 3vw;
+	padding: 20px;
+	}
+	
+tr:nth-child(even){
+	background-color: #414141;
+}
+
+.specTable > caption{
+	font-size: 18px;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+
+	
+.specTable > tr, td{
+		margin: auto;
+		padding: 20px;
+	}
+	
+.specTable{
+		width: 100%;
+	}
+
+@media only screen and (min-width: 950px){
+	.tableContainer{
+		display: inline-block;
+		border-radius: 8px;
+		color: white;
+		border: none;
+		box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+		margin: 0px;
+		width: 40%;
+		margin: 50px 3vw;
+	}
+	
+	.specTable > tr, td{
+		padding: 10px;
+	}
+
+
+}
+
+
+
+
