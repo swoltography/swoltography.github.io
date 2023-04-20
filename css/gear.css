@@ -103,6 +103,10 @@ tr:nth-child(even){
 
 }
 
-
+h2{
+	font-size: 30px;
+	border-bottom: 2px solid white;
+	margin: 50px 10vw;
+}
 
 
